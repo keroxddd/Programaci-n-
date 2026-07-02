@@ -22,7 +22,7 @@ print("SALIR")
 opcion = input("Seleccione una opción: ").upper()
 
 if opcion == "1":
-    print("\nHas entrado a los paseos disponibles")
+    print("Has entrado a los paseos disponibles")
     print("1. Perros pequeños...............$2.50")
     print("2. Perros medianos...............$3.00")
     print("3. Perros grandes................$5.00")
@@ -39,14 +39,14 @@ if opcion == "1":
         print("SALIENDO...")
 
 elif opcion == "2":
-    print("\nTipos de cuidados")
+    print("Tipos de cuidados")
     print("1. Higiene y salud")
     print("2. Alimentación Premium")
 
     cuid = input("Seleccione una opción: ")
 
     if cuid == "1":
-        print("\n1. Baño y corte de uñas................$18.00")
+        print("1. Baño y corte de uñas................$18.00")
         print("2. Antipulgas (Tableta/Pipeta).........$15.00")
         print("3. Desparasitante interno..............$10.00")
         print("4. Corte con tijera o estilo de raza...$10.00")
@@ -65,7 +65,7 @@ elif opcion == "2":
             print("SALIENDO...")
 
     elif cuid == "2":
-        print("\n1. Royal Canin 15 kg.................$117.00")
+        print("1. Royal Canin 15 kg.................$117.00")
         print("2. Dog Chow 22.7 kg..................$57.00")
         print("3. Campeón 20 kg.....................$35.00")
 
@@ -81,7 +81,7 @@ elif opcion == "2":
             print("SALIENDO...")
 
 elif opcion == "3":
-    print("\nProductos para tu mejor amigo peludo")
+    print("Productos para tu mejor amigo peludo")
     print("1. Ropas")
     print("2. Juguetes")
     print("3. Golosinas")
@@ -89,7 +89,7 @@ elif opcion == "3":
     produc = input("Seleccione una opción: ")
 
     if produc == "1":
-        print("\nTipos de ropa")
+        print("Tipos de ropa")
         print("1. Abrigos (grandes)...............$20.00")
         print("2. Abrigos (medianos)..............$12.00")
         print("3. Abrigos (pequeños)..............$7.00")
@@ -106,7 +106,7 @@ elif opcion == "3":
             print("SALIENDO...")
 
     elif produc == "2":
-        print("\nJuguetes")
+        print("Juguetes")
         print("1. Juguetes Mordedores............$3.00")
         print("2. Peluches con Sonido............$7.00")
         print("3. Juguetes Interactivos.........$10.00")
@@ -123,7 +123,7 @@ elif opcion == "3":
             print("SALIENDO...")
 
     elif produc == "3":
-        print("\nGolosinas")
+        print("Golosinas")
         print("1. Galletas Horneadas.............$2.50")
         print("2. Huesos de Carnaza..............$1.50")
         print("3. Snacks de Carne Deshidratada...$4.00")
@@ -147,11 +147,10 @@ else:
     print("Opción no válida.")
     exit()
 
-# Facturación
 total = precio
 iva = total * 0.15
 
-print("\n-----------------------------------------")
+print("-----------------------------------------")
 print("CLIENTE:", nombre)
 print("MASCOTA:", nombrep)
 print(f"Total producto: ${precio:.2f}")
